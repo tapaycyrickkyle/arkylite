@@ -33,7 +33,7 @@ export function getGalleryImages(): GalleryImage[] {
 
   return withStats.map((f, i) => ({
     src: `/images/gallery/${f.name}`,
-    alt: `Gallery photo ${i + 1}`,
+    alt: `Arkylite Design + Build project gallery photo ${i + 1}`,
   }));
 }
 

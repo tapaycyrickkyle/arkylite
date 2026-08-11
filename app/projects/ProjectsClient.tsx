@@ -12,7 +12,7 @@ interface ProjectImage {
 
 const IMAGES: ProjectImage[] = Array.from({ length: 23 }, (_, i) => ({
   src: `/images/projects/project-${i + 1}.jpg`,
-  alt: `Project photo ${i + 1}`,
+  alt: `Arkylite Design + Build project photo ${i + 1}`,
 }));
 
 export default function ProjectsClient() {

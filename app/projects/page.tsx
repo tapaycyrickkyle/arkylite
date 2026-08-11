@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import FloatingMessenger from "@/app/components/FloatingMessenger";
 import ProjectsClient from "./ProjectsClient";
+
+export const metadata: Metadata = {
+  title: "Completed Architecture & Construction Projects",
+  description:
+    "Browse Arkylite Design + Build's completed residential, commercial, and industrial architecture and construction projects in the Philippines.",
+};
 
 export default function ProjectsPage() {
   return (

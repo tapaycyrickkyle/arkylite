@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import FloatingMessenger from "@/app/components/FloatingMessenger";
 import GalleryClient from "./GalleryClient";
 import { getGalleryImages, VIDEOS } from "@/lib/get-gallery-images";
+
+export const metadata: Metadata = {
+  title: "Architecture & Construction Gallery",
+  description:
+    "Explore photos and project walkthroughs from Arkylite Design + Build's architecture, engineering, and construction work in the Philippines.",
+};
 
 export default function GalleryPage() {
   const images = getGalleryImages();

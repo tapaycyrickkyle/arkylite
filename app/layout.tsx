@@ -16,9 +16,41 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Arkylite Design + Build | Architectural Design & Engineering Consultancy",
+  title: {
+    default: "Arkylite Design + Build | Architecture, Engineering & Construction",
+    template: "%s | Arkylite Design + Build",
+  },
   description:
-    "Architectural Design & Engineering Consultancy and Construction Services in Plaridel, Philippines. Design + Build. Licensed Architect, Engineer and Master Plumber.",
+    "Architecture, engineering consultancy, and construction services in Plaridel, Philippines. Work with licensed design-and-build professionals from concept to completion.",
+  applicationName: "Arkylite Design + Build",
+  keywords: [
+    "architectural design Plaridel",
+    "engineering consultancy Plaridel",
+    "construction services Plaridel",
+    "design and build Philippines",
+    "architectural firm Philippines",
+  ],
+  authors: [{ name: "Arkylite Design + Build" }],
+  creator: "Arkylite Design + Build",
+  publisher: "Arkylite Design + Build",
+  category: "Architecture and construction",
+  verification: {
+    google: "R7sQnH_vDJrMAU_vh8sKYLeGzdFf7enJZqIcn6qtM0E",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_PH",
+    siteName: "Arkylite Design + Build",
+    title: "Arkylite Design + Build | Architecture, Engineering & Construction",
+    description:
+      "Licensed design-and-build professionals delivering architectural, engineering, and construction services in Plaridel, Philippines.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Arkylite Design + Build | Architecture, Engineering & Construction",
+    description:
+      "Licensed design-and-build professionals in Plaridel, Philippines.",
+  },
 };
 
 export default function RootLayout({
